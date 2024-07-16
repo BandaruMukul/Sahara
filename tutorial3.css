@@ -1,0 +1,130 @@
+*
+{
+    margin:0px;
+    padding:0px;
+    
+}
+.website
+{
+    width:100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('background.png');
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    padding:0px 5%;
+}
+.navbar
+{
+    height: 56px;
+    display:flex;
+    align-items: center;
+    /*background-color:blueviolet;*/
+}
+.logo
+{
+    width:55px;
+    padding-top:6px;
+    cursor:pointer;
+}
+.cart
+{
+    width:35px;
+    cursor:pointer;
+    margin-left:50px;
+}
+nav
+{
+    flex:1;
+    text-align:right;
+}
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding-left:45px;
+    color:#fff;
+}
+nav ul li a
+{
+    text-decoration: none;
+    color:#fff;
+}
+.content
+{
+    display:flex;
+    height:88%;
+    align-items:center;
+    /*background-color:white;*/
+}
+.info
+{
+    width:50%;
+}
+h1
+{
+    color:#fff;
+    font-size:100px;
+}
+p
+{
+    color:#fff;
+    font-size:13px;
+    line-height:15px;
+}
+.info
+{   
+      width: 100%;
+    /*background-color: aqua;*/
+}
+.album
+{
+    /*background-color:pink;*/
+}
+button
+{
+    width:140px;
+    padding:10px 0px;
+    margin-top:30px;
+    font-size: 15px;
+    background-color:#fff;
+    outline: none;
+    border:0px;
+    border-radius:20px;
+    cursor: pointer;
+}
+.images
+{
+    width:270px;
+    height:250px;
+    display: inline-block;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    margin:7px 15px;
+    background-image: url('pic-1.png');
+    background-size: cover;
+    background-position: center;
+    transition:transform 0.5s;
+    cursor: pointer;
+}
+card1
+{
+    background-image: url('pic-1.png');
+}
+.card2
+{
+    background-image: url('pic-2.png');
+}
+.card3
+{
+    background-image: url('pic-3.png');
+}
+.card4
+{
+    background-image: url('pic-4.png');
+}
+.images:hover
+{
+    transform: translateY(-7px);
+}
